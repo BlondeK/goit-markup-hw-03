@@ -6,22 +6,68 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*======START HEADER=======*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-navigation {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  margin-right: 95px;
 }
 .logo-studio {
   color: black;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-list-link {
   font-weight: 500;
@@ -30,9 +76,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+.li-contact-mail {
+  margin-right: 50px;
+}
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: var(--accent-color);
+}
+.nav-contacts {
+  display: flex;
 }
 .contact-mail,
 .contact-tel {
@@ -42,6 +94,7 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
@@ -56,6 +109,8 @@ body {
 /*======START MAIN=======*/
 .application {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .application-text {
   font-weight: 900;
@@ -67,16 +122,13 @@ body {
   color: #ffffff;
 }
 .button-modal {
+  min-width: 200px;
+  padding: 10px 30px 10px 30px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-}
-.button-modal:hover,
-.button-modal:focus {
-  background: #188ce8;
-}
-.button-text {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -86,6 +138,17 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.button-modal:hover,
+.button-modal:focus {
+  background: #188ce8;
+}
+
+.main-activity-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
 .main-activity-list-title {
   font-weight: 700;
   font-size: 14px;

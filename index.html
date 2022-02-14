@@ -20,38 +20,44 @@
     <!--Шапка страницы-->
     
     <header class="header">
-       
-        <a href="/"class="link logo">Web<span class="logo-studio">Studio</span></a>
+       <div class="container header-container">
+        
             <nav class="top-navigation">
+                <a href="/" class="link logo">Web<span class="logo-studio">Studio</span></a>
                 <ul class="nav-list list">
                         <li class="nav-list-item">
                             <a class="link nav-list-link" href="./index.html">Cтудия</a></li>
-                        <li class="nav-list-link-item">
+                        <li class="nav-list-item">
                             <a class="link nav-list-link" href="./portfolio.html" >Портфолио</a></li>
-                        <li class="nav-list-link-item">
+                        <li class="nav-list-item">
                             <a class="link nav-list-link" href="/contacts">Контакты</a></li>
                 </ul>
              </nav>
-             <ul class="list">
-                 <li>
+             <ul class="nav-contacts list">
+                 <li class="li-contact-mail">
                      <a  class="link contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                  <li>
                      <a class="link contact-tel" href="tel:+380961111111" >+380961111111</a>
                     </li>
              </ul>
+            </div>
          
     </header>
     <!--Уникальный контент страницы-->
     <main>
+        
         <section class="application">
-            <div>
+            <div class="container">
+            <div class="section-application">
                 <!--<img src="./images/Фон шапки.jpg" alt="Work" width="100%" height="600px" class="top-image">-->
                 <h1 class="application-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="button-modal" type="button"><span class="button-text">Заказать услугу</span></button>
+                <button class="button-modal" type="button">Заказать услугу</button>
+            </div>
             </div>
         </section>
-             <section>
+             <section class="main-activity-section">
+                <div class="container main-container-activity">
                 <ul class="list">
                     <li class="main-activity-list">
                         <h3 class="main-activity-list-title">Внимание к деталям</h3>
@@ -70,16 +76,20 @@
                         <p class="main-activity-list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+                </div>
             </section>
         <section>
+            <div class="container">
             <h2 class="title-list-of-services" >Чем мы занимаемся</h2>
-            <ul class="list">
+            <ul class="list ">
                 <li><img src="./images/work-color.jpg" alt="Веб Дизайн" width="370" height="294"></li>
                 <li><img src="./images/work-tablet.jpg" alt="Планшет" width="370" height="294"></li>
                 <li><img src="./images/work-web-design.jpg" alt="Дизайн" width="370" height="294"></li>
             </ul>
+            </div>
         </section>
-         <section class="section-command">
+         <section class="section-command ">
+            <div class="container">
             <h2 class="title-command">Наша команда</h2>
              <ul class="list">
                  <li class="command-card">
@@ -103,7 +113,9 @@
                     <p class="command-profession">UI Designer</p>
                  </li>
              </ul>
+            </div>
           </section>
+        
     </main>
 
 

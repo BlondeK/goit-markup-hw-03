@@ -1,9 +1,10 @@
 :root {
   --accent-color: #2196f3;
   --title-color: #212121;
+  --first-font-family: "Roboto", sans-serif;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: var(--first-font-family);
   color: #212121;
 }
 h1,
@@ -147,7 +148,6 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-
 
 .main-activity-list-title {
   font-weight: 700;

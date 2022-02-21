@@ -29,7 +29,7 @@
                             <a class="link nav-list-link" href="./index.html">Cтудия</a>
                         </li>
                         <li class="nav-list-item">
-                            <a class="link nav-list-link" href="./portfolio.html">Портфолио</a>
+                            <a class="link nav-list-link current" href="./portfolio.html">Портфолио</a>
                         </li>
                         <li class="nav-list-item">
                             <a class="link nav-list-link" href="/contacts">Контакты</a>
@@ -50,7 +50,7 @@
         <!--Уникальный контент страницы-->
         <main>
                    
-            <section >
+            <section class="project-section">
                        <div class="container section-menu-btn">
                             <ul class="list menu-btn-portfolio">
                                 <li class="list-sorting-button">
@@ -77,48 +77,66 @@
                 <ul class="list projects-list">
                     <li  class="project-card">
                         <img src="./images/project-1.jpg" alt="Проект 1" width="370" >
-                        <p class="project-name">Технокряк</p>
-                        <p class="project-type">Веб-сайт</p>
-                    </li>
+                        <div class="project-text-block">
+                            <h3  class="project-name">Технокряк</h3>
+                            <p class="project-type">Веб-сайт</p>
+                        </div>
+                     </li>
                     <li class="project-card">
                         <img src="./images/project-2.jpg" alt="Проект 2" width="370" >
-                         <p class="project-name">Постер New Orlean vs Golden Star</p>
-                         <p class="project-type">Дизайн</p>
+                        <div  class="project-text-block">
+                            <h3  class="project-name">Постер New Orlean vs Golden Star</h3>
+                            <p class="project-type">Дизайн</p>
+                        </div>
                     </li>
                     <li class="project-card">
                         <img src="./images/project-3.jpg" alt="Проект 3" width="370" >
-                        <p class="project-name">Ресторан Seafood</p>
-                        <p class="project-type">Приложение</p>
+                        <div class="project-text-block">
+                            <h3  class="project-name">Ресторан Seafood</h3>
+                            <p class="project-type">Приложение</p>
+                        </div>
                     </li>
                     <li class="project-card">
-                        <img src="./images/project-4.jpg" alt="Проект 4" width="370"">
-                        <p class="project-name">Проект Prime</p>
-                        <p class="project-type">Маркетинг</p>
+                        <img src="./images/project-4.jpg" alt="Проект 4" width="370">
+                        <div class="project-text-block">
+                            <h3  class="project-name">Проект Prime</h3>
+                            <p class="project-type">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="project-card">
                         <img src="./images/project-5.jpg" alt="Проект 5" width="370" >
-                        <p class="project-name">Проект Boxes</p>
-                        <p class="project-type">Приложение</p>
+                        <div class="project-text-block">
+                            <h3  class="project-name">Проект Boxes</h3>
+                            <p class="project-type">Приложение</p>
+                        </div>
                     </li>
                     <li class="project-card">
                         <img src="./images/project-6.jpg" alt="Проект 6" width="370" >
-                        <p class="project-name">Inspiration has no Borders</p>
-                        <p class="project-type">Веб-сайт</p>
+                        <div class="project-text-block">
+                            <h3 class="project-name">Inspiration has no Borders</h3>
+                            <p class="project-type">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="project-card">
                         <img src="./images/project-7.jpg" alt="Проект 7" width="370" >
-                        <p class="project-name">Издание Limited Edition</p>
-                        <p class="project-type">Дизайн</p>
-                    </li>
+                        <div class="project-text-block">
+                            <h3  class="project-name">Издание Limited Edition</h3>
+                            <p class="project-type">Дизайн</p>
+                        </div>
+                   </li>
                     <li class="project-card">
                         <img src="./images/project-8.jpg" alt="Проект 8" width="370" >
-                        <p class="project-name">Проект LAB</p>
-                        <p class="project-type">Маркетинг</p>
+                        <div class="project-text-block">
+                            <h3  class="project-name">Проект LAB</h3>
+                            <p class="project-type">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="project-card">
                         <img src="./images/project-9.jpg" alt="Проект 9" width="370" >
-                        <p class="project-name">Growing Business</p>
-                        <p class="project-type">Приложение</p>
+                        <div class="project-text-block">
+                            <h3  class="project-name"> Growing Business</h3>
+                            <p class="project-type">Приложение</p>
+                        </div>
                     </li>
                    
                 </ul>
@@ -130,10 +148,11 @@
         <!--Подвал страницы-->
         <footer class="footer">
             <div class="container footer-section">
-                <a href="/" class="link logo">
-                    <span>Web</span>
-                    <span class="logo-footer-studio">Studio</span>
-                </a>
+                <div class="logo-footer">
+                    <a href="./index.html" class="link logo ">
+                        Web<span class="logo-footer-studio">Studio</span>
+                    </a>
+                </div>
                 <address class="footer-address">
                     <a href="https://goo.gl/maps/qbivKNQmzpoVFrAQ6" target="_blank" rel="noopener noreferrer"
                         class="link-address-map link">
